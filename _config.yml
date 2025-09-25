@@ -23,7 +23,7 @@ repository               : "kelleyxiao/kelleyxiao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Keliang Xiao"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate in Agricultural & Consumer Economics at UIUC"
