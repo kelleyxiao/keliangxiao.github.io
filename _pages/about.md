@@ -20,7 +20,7 @@ redirect_from:
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 20px;
-  gap: 100px;
+  gap: 140px;
 }
 
 /* Right-side (text area) styling */
@@ -54,7 +54,7 @@ redirect_from:
 @media (max-width: 992px) {
   .custom-home-wrapper {
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
 
   .custom-home-text {
