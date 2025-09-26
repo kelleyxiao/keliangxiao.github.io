@@ -11,10 +11,6 @@
     @include suffix(1.5 of 12);
    }
 
-  // Optional: manual spacing as backup
-  padding-left: 1.5em;
-  padding-right: 1em;
-}
 
   @include breakpoint($medium) {
     @include span(12 of 12);
