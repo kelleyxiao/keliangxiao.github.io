@@ -7,60 +7,61 @@ redirect_from:
 ---
 
 <style>
-  .custom-intro-wrapper {
-    display: flex;
-    flex-direction: row;
-    max-width: 2400px;
-    margin: 0 auto;
-    margin-top: 15px; /* Lower the right part */
-    padding-right: 2rem;
+/* Wrapper for two-column layout */
+.custom-home-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
+  padding: 0 40px;
+  gap: 80px;
+}
+
+/* Right-hand side content */
+.custom-home-text {
+  flex: 1;
+  margin-top: 40px;
+  max-width: 750px;
+}
+
+.custom-home-text h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.custom-home-text h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.custom-home-text p {
+  font-size: 17px;
+  line-height: 1.75;
+  text-align: justify;
+}
+
+/* Responsive fallback */
+@media (max-width: 992px) {
+  .custom-home-wrapper {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
   }
 
-  .custom-intro-content {
-    flex: 1;
-    padding-left: 80px; /* Move to the right */
-    max-width: 2000px;   /* Wider */
-    margin-top: 20px;   /* Push down slightly */
-  }
-
-  .custom-intro-content h2 {
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-top: 0;
-  }
-
-  .custom-intro-content h3 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 15px;
-  }
-
-  .custom-intro-content p {
-    font-size: 17px;
-    line-height: 1.75;
+  .custom-home-text {
     margin-top: 10px;
-    text-align: justify;
+    max-width: 100%;
   }
-
-  @media (max-width: 768px) {
-    .custom-intro-wrapper {
-      flex-direction: column;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      margin-top: 20px;
-    }
-
-    .custom-intro-content {
-      padding-left: 0;
-      margin-top: 10px;
-      max-width: 100%;
-    }
-  }
+}
 </style>
 
-<div class="custom-intro-wrapper">
-  <div class="custom-intro-content">
+<div class="custom-home-wrapper">
+  <!-- The left side (author profile) is auto-injected by author_profile: true -->
+  <div class="custom-home-text">
     <h2>Ph.D. Candidate in Agricultural and Consumer Economics</h2>
     <h3>University of Illinois Urbana-Champaign</h3>
     <p>
