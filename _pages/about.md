@@ -6,47 +6,51 @@ redirect_from:
   - /about.html
 ---
 
-
 <style>
   .custom-intro-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 880px;
     display: flex;
-    align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: -40px; /* Pull up to align with profile photo */
+    padding-right: 2rem;
   }
 
   .custom-intro-content {
-    flex: 1 1 100%;
-    padding-left: 280px; /* Push right of profile pic */
-    padding-top: 60px;
-    padding-bottom: 60px;
+    flex: 1;
+    padding-left: 40px;
+    max-width: 700px;
   }
 
   .custom-intro-content h2 {
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 0;
   }
 
   .custom-intro-content h3 {
     font-size: 20px;
-    margin-bottom: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
   }
 
   .custom-intro-content p {
     font-size: 17px;
     line-height: 1.7;
     margin-top: 10px;
+    text-align: justify;
   }
 
   @media (max-width: 768px) {
+    .custom-intro-wrapper {
+      flex-direction: column;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-top: 20px;
+    }
     .custom-intro-content {
       padding-left: 0;
-      padding-top: 20px;
     }
   }
 </style>
