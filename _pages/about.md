@@ -27,7 +27,7 @@ redirect_from:
 .custom-home-text {
   flex-grow: 1;
   min-width: 700px;
-  margin-top: 20px;
+  margin-top: 30px;
   padding-right: 30px;
 }
 
