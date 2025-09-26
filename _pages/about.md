@@ -1,17 +1,63 @@
 ---
+layout: home
+title: "About"
 permalink: /
-
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 700px; margin: 0 auto;">
+<style>
+  .custom-home-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
 
-### Ph.D. Candidate in Agricultural and Consumer Economics  
-**University of Illinois Urbana-Champaign**
+  .custom-intro {
+    flex: 1 1 60%;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 80px;
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+  }
 
-My research lies at the intersection of international trade and environmental economics. I investigate how trade policies influence global trade patterns and assess their downstream environmental impacts—particularly greenhouse gas emissions from agriculture and land-use changes such as deforestation in Southeast Asia.
+  .custom-intro h3 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 22px;
+  }
 
+  .custom-intro p {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .custom-home-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .custom-intro {
+      padding-left: 0;
+      padding-top: 20px;
+    }
+  }
+</style>
+
+<div class="custom-home-wrapper">
+  <div class="custom-intro">
+    <h3>Ph.D. Candidate in Agricultural and Consumer Economics</h3>
+    <p><strong>University of Illinois Urbana-Champaign</strong></p>
+    <p>
+      My research lies at the intersection of international trade and environmental economics.
+      I investigate how trade policies influence global trade patterns and assess their downstream
+      environmental impacts—particularly greenhouse gas emissions from agriculture and land-use
+      changes such as deforestation in Southeast Asia.
+    </p>
+  </div>
 </div>
