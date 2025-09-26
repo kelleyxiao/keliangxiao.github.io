@@ -10,7 +10,7 @@ redirect_from:
   .custom-intro-wrapper {
     display: flex;
     flex-direction: row;
-    max-width: 1600px;
+    max-width: 2400px;
     margin: 0 auto;
     margin-top: 15px; /* Lower the right part */
     padding-right: 2rem;
@@ -19,7 +19,7 @@ redirect_from:
   .custom-intro-content {
     flex: 1;
     padding-left: 80px; /* Move to the right */
-    max-width: 1100px;   /* Wider */
+    max-width: 2000px;   /* Wider */
     margin-top: 20px;   /* Push down slightly */
   }
 
