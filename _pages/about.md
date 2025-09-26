@@ -10,16 +10,17 @@ redirect_from:
   .custom-intro-wrapper {
     display: flex;
     flex-direction: row;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
-    margin-top: -40px; /* Pull up to align with profile photo */
+    margin-top: 20px; /* Lower the right part */
     padding-right: 2rem;
   }
 
   .custom-intro-content {
     flex: 1;
-    padding-left: 40px;
-    max-width: 700px;
+    padding-left: 80px; /* Move to the right */
+    max-width: 800px;   /* Wider */
+    margin-top: 30px;   /* Push down slightly */
   }
 
   .custom-intro-content h2 {
@@ -37,7 +38,7 @@ redirect_from:
 
   .custom-intro-content p {
     font-size: 17px;
-    line-height: 1.7;
+    line-height: 1.75;
     margin-top: 10px;
     text-align: justify;
   }
@@ -49,8 +50,11 @@ redirect_from:
       padding-right: 1rem;
       margin-top: 20px;
     }
+
     .custom-intro-content {
       padding-left: 0;
+      margin-top: 10px;
+      max-width: 100%;
     }
   }
 </style>
