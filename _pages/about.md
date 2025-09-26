@@ -10,7 +10,7 @@ redirect_from:
 <style>
 /* Expand the main container */
 .page__content {
-  max-width: 1100px !important;
+  max-width: 1200px !important;
   width: 100%;
 }
 
@@ -20,7 +20,7 @@ redirect_from:
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 20px;
-  gap: 300px;
+  gap: 100px;
 }
 
 /* Right-side (text area) styling */
@@ -28,7 +28,7 @@ redirect_from:
   flex-grow: 1;
   min-width: 700px;
   margin-top: 20px;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .custom-home-text h2 {
